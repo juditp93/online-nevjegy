@@ -1,0 +1,98 @@
+.profile-card {
+    background-color: hwb(0 100% 0% / 0.7);
+    box-shadow: hsla(0, 0%, 0%, .8) 40px 40px 80px;
+  }
+  /* CSS reset */
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+  }
+  .profile-card{
+    width: 450px;
+    max-width: calc(100vw - 10px);
+    font-family: Raleway;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .head, .links {
+    text-align: center;
+  }
+  .head, .content {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .content{
+    font-weight: 600;
+  }
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 80%;
+  }
+  .profile-image {
+    margin-top: -80px;
+  }
+  /* Contact links */
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    display: inline;
+    padding: 5px;
+  }
+  .head, .about {
+    margin-bottom: 10%;
+  }
+  
+  .content {
+    padding: 5% 5% 5% 5%;
+  }
+  body {
+    background: url('https://res.cloudinary.com/djcyhbk2e/image/upload/c_limit,f_auto,q_50,w_1400/v1/gvv/prod/yonjjgfqjxcsrygcpb8e') no-repeat center center fixed;
+    background-size: cover;
+  }
+  img {
+    padding: 10px;
+    background-color: rgb(246, 186, 6);
+    transition: all 0.5s ease-in-out;
+    filter: grayscale(20%);
+  }
+  .content {
+    border-top: 3px solid hsla(49, 100%, 48%, 0.8);
+  }
+  img:hover {
+    transform: scale(1.1);
+    filter: grayscale(60%);
+  }
+  h1 {
+    text-transform: uppercase;
+    font-size:40px;
+    padding-top: 20px;
+    font-family: Cookie;
+  }
+  h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-transform:lowercase;
+  }
+  .about {
+    text-align: center;
+  }
+  a {
+    color: rgb(88, 87, 78);
+    font-size: 30px;
+  }
+  a:hover{
+    color: rgb(115, 160, 11);
+  }
+
+
