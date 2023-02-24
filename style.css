@@ -1,5 +1,6 @@
 .profile-card {
-    background-color: hwb(0 100% 0% / 0.7);
+    background-color: hwb(0 100% 0% / 0.9);
+    border-radius: 200px;
     box-shadow: hsla(0, 0%, 0%, .8) 40px 40px 80px;
   }
   /* CSS reset */
